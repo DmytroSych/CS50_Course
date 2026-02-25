@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 19px 20px;
+  gap: 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color:black ;
+  font-size: 14px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.logo-btn {
+  height: 30px;
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.logo {
+  width: 272px;
+  height: 92px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.search-input {
+  width: 580px;
+  padding: 12px 20px;
+  border-radius: 24px;
+  border: 1px solid #d9d9d9;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-input:hover {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.search-input:focus {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 1px solid #c0c0c0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+
+
+/* Advanced Search */
+
+.header-advanced {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 15px;
+}
+
+.header-advanced  a {
+  text-decoration: none;
+  color:black ;
+  font-size: 14px;
+}
+
+.header-advanced a:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.advanced-title h1 {
+  font-size: 20px;
+  font-weight: normal;
+  align-content: right;
+  color: #d93025;
+  margin-top: 40px;
+}
+.underline {
+border-bottom: 1px solid #ebebeb;
+
+}
+
+.advanced-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin: 40px 0;
+}
+
+/*each field*/
+
+.field-group label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 15px;
+}
+
+.field-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+  font-size: 16px;
+}
+
+.field-group input[type="text"]:focus {
+  outline: none;
+  border-color: #4d90fe;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  width: 99%;
+  gap: 3px;
+}
+
+/*numbers range fields*/
+
+.range-row {
+  display: flex;
+  margin: 5px 0;
+  width: 100%;
+  margin-top: 30px;
+  gap: 5px; 
+}
+
+.range-row label {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 10px;
+}
+
+.range-row input {
+  flex: 1; 
+}
+
+.range-row input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+  font-size: 16px;
+}
+
+.range-row input[type="text"]:focus {
+  outline: none;
+  border-color: #4d90fe;
+}
+
+/* фвмфтсув іуфкср игеещт*/
+
+.advbtn {
+  padding: 10px 14px;
+  background: #4d90fe;
+  border: 1px solid #4787ed;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.advbtn:hover {
+  background: #3079ed;
+}
